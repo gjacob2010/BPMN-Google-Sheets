@@ -1,2 +1,2 @@
 # BPMN-Google-Sheets
-Google Sheets as a BPMN enging
+Google Sheets as a BPMN engine
