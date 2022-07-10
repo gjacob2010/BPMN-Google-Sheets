@@ -1,5 +1,7 @@
 # BPMN-Google-Sheets
-Google Sheets as a BPMN engine
+<u>Google Sheets as a BPMN engine</u>
+
+Saving 
 1) Open your Google Drive
 2) Create a folder called "BPMN"
 3) Open the following Google sheet and save it to the BPMN folder
