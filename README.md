@@ -12,3 +12,5 @@ Saving Google Sheets User Interface File
 Open BPMN file
 1) Download "RhIG.bpmn" file
 2) Click Create BPMN. Within the modeller, open "RhIG.bpmn"
+3) You should see the BPMN diagram for determining whether a patient requires RhIG injection in pregnancy
+4) 
