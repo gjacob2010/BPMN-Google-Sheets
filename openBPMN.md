@@ -1,6 +1,6 @@
 Open BPMN file
 1) Download "RhIG.bpmn" file from the github repository
-2) Click Create BPMN. 
+2) Click Create BPMN from the BPMN executable User Interface Google Sheet file
 <img src ="create BPMN.png">
 3) Within the modeller, open "RhIG.bpmn"
 <img src ="open example bpmn.png">
