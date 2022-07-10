@@ -4,10 +4,12 @@
 Saving Google Sheets User Interface File
 1) Open your Google Drive
 2) Create a folder called "BPMN"
-3) Open the following Google sheet and save it to the BPMN folder
+3) Open the following Google sheet [BPMN user interface] and save it to the BPMN folder
 4) https://docs.google.com/spreadsheets/d/117u22LSXUNZ0jxQbiwHBapz45_Nksk4f1q-lHBMeVew/edit?usp=sharing
-5) Click "Create BPMN"
-6) Allow all the script files to be accessible
+5) Open the following Google sheet [Template] and save it to the BPMN folder
+6) https://docs.google.com/spreadsheets/d/1LjnDu2A-kua6-tA_GAAzNtKffbMAuwTJ4US4b_hh254/edit?usp=sharing
+7) Click "Create BPMN"
+8) Allow all the script files to be accessible
 
 Open BPMN file
 1) Download "RhIG.bpmn" file from the github repository
