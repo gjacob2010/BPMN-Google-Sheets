@@ -1,7 +1,7 @@
 # BPMN-Google-Sheets
 <u>Google Sheets as a BPMN engine</u>
 
-Saving Google Sheets User Interface File
+Saving Google Sheets BPMN executable User Interface File and Template File
 1) Open your Google Drive
 2) Create a folder called "BPMN"
 3) Open the following Google sheet [BPMN executable User Interface] and save it to the BPMN folder
