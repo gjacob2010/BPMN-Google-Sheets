@@ -10,3 +10,4 @@ Open BPMN file
 <img src ="open bpmn file.png">
 7) Click the button which says Save once the XML code has been converted to JSON
 <img src="save json.png">
+<a href ="uploadJSON.md">Go to next step</a>
