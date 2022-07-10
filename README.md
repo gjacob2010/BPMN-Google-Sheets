@@ -14,6 +14,7 @@ Open BPMN file
 2) Click Create BPMN. 
 <img src ="create BPMN.png">
 3) Within the modeller, open "RhIG.bpmn"
+
 4) You should see the BPMN diagram for determining whether a patient requires RhIG injection in pregnancy
 5) Convert XML to JSON by following steps in the diagram below 
 <img src ="open bpmn file.png">
