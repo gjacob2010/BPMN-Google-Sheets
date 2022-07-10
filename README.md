@@ -10,8 +10,10 @@ Saving Google Sheets User Interface File
 6) Allow all the script files to be accessible
 
 Open BPMN file
-1) Download "RhIG.bpmn" file
-2) Click Create BPMN. Within the modeller, open "RhIG.bpmn"
-3) You should see the BPMN diagram for determining whether a patient requires RhIG injection in pregnancy
-4) Convert XML to JSON by following steps in the diagram below 
+1) Download "RhIG.bpmn" file from the github repository
+2) Click Create BPMN. 
+<img src ="create bpmn.png">
+3) Within the modeller, open "RhIG.bpmn"
+4) You should see the BPMN diagram for determining whether a patient requires RhIG injection in pregnancy
+5) Convert XML to JSON by following steps in the diagram below 
 <img src ="open bpmn file.png">
