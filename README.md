@@ -12,4 +12,5 @@ Saving Google Sheets BPMN executable User Interface File and Template File
 8) Click "Create BPMN"
 9) Allow all the script files to be accessible
 
+<a href="openBPMN.md">Go to next step</a>
 
