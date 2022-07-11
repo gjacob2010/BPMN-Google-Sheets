@@ -6,7 +6,8 @@ Saving Google Sheets BPMN executable User Interface File and Template File
 2) Create a folder called "BPMN"
 3) Open the following Google sheet [BPMN executable User Interface] and save it to the BPMN folder
 4) https://docs.google.com/spreadsheets/d/117u22LSXUNZ0jxQbiwHBapz45_Nksk4f1q-lHBMeVew/edit?usp=sharing
-5) Open the following Google sheet [Template] and save it to the BPMN folder
+5) Open the following Google sheet [Template] and save it to the BPMN folder.  
+<b>Make sure that it is called "Template"</b>
 6) https://docs.google.com/spreadsheets/d/1LjnDu2A-kua6-tA_GAAzNtKffbMAuwTJ4US4b_hh254/edit?usp=sharing
 7) Open the sheet called "BPMN executable User Interface that you created in step 3.
 8) Download RhIG.bpmn file from repository for example of BPMN process
