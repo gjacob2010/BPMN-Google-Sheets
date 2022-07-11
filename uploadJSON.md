@@ -5,3 +5,5 @@ Upload JSON file and Run BPMN logic and create new Google Sheet
 2) Run the logic within the BPMN diagram and you will see text data within google sheet that is part of the diagram
 
 3)Click Save as to create a new Google Sheets specific to your BPMN process
+4) Open the new sheet created 
+<img src ="new sheet.png">
