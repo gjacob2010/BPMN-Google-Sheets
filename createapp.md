@@ -1,7 +1,7 @@
 Create Web App and REST API
 
 1) After opening the newly created Google Sheets file, click Share on the top right corner, and change <b>General Access</b> to "Anyone with the link"
-<img src="share.png">  
+<img src="shares.png">  
 2) Then click <b> Extensions, Apps Script </b>
 <img src="create app.png">
 3) Then, click <b>Deploy</b> on the upper right corner of the Apps Script window
