@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <base target="_top">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+  <h2>Decision Calculator</h2>
+<?for (i=0;i<question.length;i++){?>
+<div class="input-field col s12">
+    <p><?= question[i][0] ?></p>
+    <select class="browser-default qstn"> 
+<option>Not done</option>
+<?for (x=2;x<cols;x++){ ?>
+    <? if (question[i][x].length>1) { ?>
+     <option> <?= question[i][x]?></option><br>
+    <? } ?>
+    <? } ?>
+    </select>
+    </div>
+    <?} ?>
+    <p></p>
+  <button class="btn btn-primary" type="button" id="btn">
+  <span id = "buttonSpinner" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+  <span id = "buttonText">Submit</span>
+</button>
+<div>API endpoint</div>
+<textarea id = "applink"><?= ScriptApp.getService().getUrl() ?></textarea>
+    <div id="app"></div>
+      <script>
+ 
+      document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems);
+  });
+ 
+    document.getElementById("btn").addEventListener("click", doStuff);
+    var answer = [];
+
+    
+
+    
+    function doStuff(){ 
+    
+    for (i=0;i<document.getElementsByClassName("qstn").length;i++){
+    answer[i] = document.getElementsByClassName("qstn")[i].value;
+    //document.getElementById("information").value += answer;
+    }
+    var buttonSpinner = document.getElementById("buttonSpinner");
+    var buttonText = document.getElementById("buttonText");
+    buttonText.textContent = "Loading...";
+    buttonSpinner.classList.remove("d-none");
+    const answerJSON = Object.assign({},answer);
+    console.log(JSON.stringify(answerJSON));
+    var urlForApp = document.getElementById("applink").value;
+    console.log(urlForApp);
+    const url = urlForApp;
+        fetch(url,{
+        method: 'POST',
+        cache: 'no-cache',
+        //mode: 'cors',
+        //credentials: 'omit',
+        redirect: 'follow', // manual, *follow, error
+        // referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+        body: JSON.stringify(answerJSON) 
+        })
+    .then (d=>d.json())
+    .then (d=> {
+    document.getElementById("app").textContent = d[0].status;
+            buttonText.textContent = "Submit";
+        buttonSpinner.classList.add("d-none");
+    });
+    }
+ 
+ 
+    
+    </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+      </body>
+</html>
+
+
