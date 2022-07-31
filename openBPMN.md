@@ -1,5 +1,5 @@
 Open BPMN file
-1) Download <b>"vte and obesity.bpmn"</b> file from the github repository
+1) Download <b>"Rhig.bpmn"</b> file from the github repository
 2) Click Create BPMN from the BPMN executable User Interface Google Sheet file
 <img src ="create BPMN.png">
 3) Within the modeller, open "vte and obesity.bpmn"
