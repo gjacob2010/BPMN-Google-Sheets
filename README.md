@@ -10,7 +10,7 @@ Saving Google Sheets BPMN executable User Interface File and Template File
 <b>Make sure that it is called "Template R10"</b>
 6) https://docs.google.com/spreadsheets/d/17MtvkjaUTrJyEekQ8px2IP3bGj1nDaS2NxmuXaUkOlg/edit?usp=sharing
 7) Open the sheet called "BPMN executable User Interface that you created in step 3.
-8) Download <b>vte and obesity.bpmn</b> file from repository for example of BPMN process
+8) Download <b>Rhig.bpmn</b> file from repository for example of BPMN process
 9) Click "Create BPMN"
 10) Allow all the script files to be accessible
 
